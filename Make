@@ -1,0 +1,2 @@
+-R . Prfx
+ND.v ND_contr.v ND_exch.v ND_lift_lems.v ND_sound.v ND_subst_lems.v ND_unique_types.v check.v check_sound.v contr.v eval.v eval_lift_lems.v eval_subst_lems.v exch.v indices.v inv_lems.v lift.v lift_lems.v list.v nat_eqb.v objects.v prfx.v red.v subj_red.v subst.v subst_lems.v

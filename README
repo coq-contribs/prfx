@@ -1,0 +1,21 @@
+title:      Proof Reflection in Coq
+author:     Dimitri Hendriks, <hendriks@cs.ru.nl>
+version:    Coq 8.0pl1
+date:       completed: 20030831;  contrib.: 20050415
+www:        <http://www.cs.ru.nl/~hendriks/coq/prfx/>
+doc.:       Ch. 2 of Hendriks' PhD thesis (thesis.*)
+compile:    make opt
+dep. graph: dotty prfx_tree.dot
+abstract:
+
+  Natural deduction for first-order logic is formalised 
+  in the proof assistant Coq, using De Bruijn indices 
+  for variable binding. The main judgement is of the 
+  form G |- d [:] p, stating that d is a proof term of 
+  formula p under hypotheses G; it can be viewed as a 
+  typing relation by the Curry-Howard isomorphism. This 
+  relation is proved sound with respect to Coq's native 
+  logic and is amenable to the manipulation of formulas 
+  and of derivations. As an illustration, I define a 
+  reduction relation on proof terms with permutative 
+  conversions and prove the property of subject reduction.
