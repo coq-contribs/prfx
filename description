@@ -13,3 +13,4 @@ Url:         http://www.cs.ru.nl/~hendriks/coq/prfx/
 Keywords:    first-order logic, natural deduction, reflection, 
              proof terms, de bruijn indices, permutative conversions
 Version:     Coq 8.0pl1 (Jul 2004)
+Category: Mathematics/Logic/Foundations
