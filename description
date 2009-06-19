@@ -9,7 +9,7 @@ Address:     P.O. Box 9010, NL-6500 GL Nijmegen
 Date:        April 15, 2005
 Description: A formalisation of natural deduction for first-order 
              logic with explicit proof terms. Read README.
-URL:         http://www.cs.ru.nl/~hendriks/coq/prfx/
+Url:         http://www.cs.ru.nl/~hendriks/coq/prfx/
 Keywords:    first-order logic, natural deduction, reflection, 
              proof terms, de bruijn indices, permutative conversions
 Version:     Coq 8.0pl1 (Jul 2004)
