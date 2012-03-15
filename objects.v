@@ -8,6 +8,8 @@ Section objects.
 
 Variable l1 l2 : list nat.
 
+Unset Elimination Schemes. (* Default trm_ind is useless *)
+
 Inductive trm : Set :=
   | var : nat -> trm
   | fun_ : forall i : index l1, listn trm (select i) -> trm.
@@ -20,8 +22,6 @@ trm_ind
             (P (fun l)))
         ->(t:trm)(P t)
 *)
-
-Reset trm_ind. (* not accepted in CoqIde *)
 
 Definition trms := listn trm.
 Definition emp := niln trm.
@@ -66,6 +66,8 @@ Let h2 (n : nat) (t : trm) (d : P t) (l : trms n) (d0 : P0 l) :
 Definition trm_ind := trm_ind' P P0 h h0 h1 h2.
 
 End ip2.
+
+Set Elimination Schemes.
 
 Inductive frm : Set :=
   | top : frm
