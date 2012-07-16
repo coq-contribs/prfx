@@ -1,5 +1,7 @@
 (** Proof Reflection in Coq ; nat_eqb.v ; 050128 ; Dimitri Hendriks; Coq 8.0pl1 *)
 
+Global Set Asymmetric Patterns.
+
 Fixpoint nat_eqb (n m : nat) {struct m} : bool :=
   match n, m with
   | O, O => true
