@@ -6,7 +6,7 @@ Homepage:    http://www.cs.ru.nl/~hendriks/
 Institution: Radboud University Nijmegen, 
              Institute for Computing and Information Sciences
 Address:     P.O. Box 9010, NL-6500 GL Nijmegen
-Date:        April 15, 2005
+Date:        15 April 2005
 Description: A formalisation of natural deduction for first-order 
              logic with explicit proof terms. Read README.
 Url:         http://www.cs.ru.nl/~hendriks/coq/prfx/
