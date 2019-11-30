@@ -44,7 +44,7 @@ Lemma shiftVAR_lift_trm_O :
  forall (VAR : nat -> A) (t : T),
  Etrm VAR (lift_trm 0 t) = Etrm (fun n => VAR (S n)) t.
 Proof.
-fix 2.
+fix shiftVAR_lift_trm_O 2.
 destruct t.
 reflexivity.
 simpl in |- *.

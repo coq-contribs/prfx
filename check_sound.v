@@ -23,7 +23,7 @@ Qed.
 
 Lemma trm_eqb_refl : forall t : T, trm_eqb t t = true.
 Proof.
-fix 1.
+fix trm_eqb_refl 1.
 destruct t.
 simpl in |- *; rewrite nat_eqb_refl; reflexivity.
 simpl in |- *.
